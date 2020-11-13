@@ -92,3 +92,93 @@ a{
 .sidebar a:hover::before, .sidebar a.active::before{
     opacity: 1;
 }
+
+.card
+{
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+.card:last-child
+{
+    margin-bottom: 0;
+}
+
+.card-header
+{
+    position: relative;
+    padding: 10px;
+}
+.card-header-avatar
+{
+    padding-left: 65px;
+}
+.card-avatar
+{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.card-title
+{
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card-date
+{
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 12px;
+}
+
+.card-body{
+    padding: 0 10px 20px 10px;
+}
+
+.card-body a
+{
+    color: #3AAAFF;
+    text-decoration: underline;
+}
+
+.card-body .full-width
+{
+    width: calc(100% + 20px);
+    display: block;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.card-body p:first-child{
+    margin-top: 0;
+}
+
+.card-body p:last-child{
+    margin-top: 0;
+}
+
+.card-footer
+{
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    display: flex;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #dbdbdb;
+}
+.card-comment
+{
+    margin-left: auto;
+}
+.card-footer a{
+    text-decoration: none;
+}
+
+.card-footer a:hover{
+    text-decoration: underline;
+}
