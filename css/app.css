@@ -50,3 +50,45 @@ a{
 .topbar-nav a:hover, .topbar-nav a.active{
     color: #fff;
 }
+
+.main-container
+{
+    padding: 0 15px;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+
+.sidebar a {
+    display: block;
+    width: 50%;
+    padding: 0.6em 0;
+    transition: color .3s;
+    border: 1px solid transparent;
+    padding-left: 10px;
+}
+
+.sidebar a:hover, .sidebar a.active{
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+}
+.sidebar a:hover::before, .sidebar a.active::before{
+    opacity: 1;
+}
